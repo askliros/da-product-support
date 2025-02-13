@@ -5,13 +5,13 @@
     "description": "Declarative agent created with Teams Toolkit",
     "instructions": "$[file('instruction.txt')]",
     "capabilities": [
-    {
-        "name": "OneDriveAndSharePoint",
-        "items_by_url": [
-            {
-                "url": "https://mfeberkeley-my.sharepoint.com/personal/aris_skliros_mfe_berkeley_edu/Documents/Products"
-            }
-        ]
-    }
-]
+        {
+            "name": "OneDriveAndSharePoint",
+            "items_by_url": [
+                {
+                    "url": "https://mfeberkeley-my.sharepoint.com/personal/aris_skliros_mfe_berkeley_edu/Documents/Products"
+                }
+            ]
+        }
+    ]
 }
