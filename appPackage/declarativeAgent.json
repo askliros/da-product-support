@@ -1,7 +1,17 @@
 {
     "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.0/schema.json",
     "version": "v1.0",
-    "name": "da-product-support",
+    "name": "Product support",
     "description": "Declarative agent created with Teams Toolkit",
-    "instructions": "$[file('instruction.txt')]"
+    "instructions": "$[file('instruction.txt')]",
+    "capabilities": [
+    {
+        "name": "OneDriveAndSharePoint",
+        "items_by_url": [
+            {
+                "url": "https://mfeberkeley-my.sharepoint.com/personal/aris_skliros_mfe_berkeley_edu/Documents/Products"
+            }
+        ]
+    }
+]
 }
